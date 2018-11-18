@@ -1,4 +1,4 @@
-# Clicky-Game
+# 90s Memory
 
 
 ### Overview
@@ -6,12 +6,8 @@ Clicky-Game is an application that renders different images by listening to clic
 
 
 
-axios.get("http://www.mprnews.org/").then(function( response) {
- var $ = cheerio.load(response.data); 
-... }
-
-### MPRNews Scraper is deployed to Heroku
-[Click To Go To Deployed Site](??)
+### 90s Memory
+[Click To Go To Deployed Site](https://sadiyajiru.github.io/90s-memory/)
 
 image
 
@@ -19,8 +15,4 @@ image
 
 ### Technologies used
 * Node.js
-* express NPM Package - https://www.npmjs.com/package/express
-* Cheerio NPM Package - https://www.npmjs.com/package/cheerio
-* Axios  NPM Package - https://www.npmjs.com/package/axios
-* Morgan NPM Package - https://www.npmjs.com/package/morgan
-* Mongoose NPM Package - https://www.npmjs.com/package/mongoose
+* React.js
