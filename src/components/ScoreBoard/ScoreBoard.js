@@ -9,10 +9,9 @@ class ScoreBoard extends Component {
         return (
           <nav className="navbar navbar-default navbar-fixed-top">
              <ul>
-              <h2 className="itemLeft">Test Your 90's Cartoon Memory</h2>
-              <li className="itemCenter">Highest Score: </li>
-              <li className="itemRight">Score: {this.props.score}
-              {this.handleIncrement}</li>
+              <h1 className="itemLeft">Test Your 90's Cartoon Memory</h1>
+              <h2 className="itemCenter">Highest Score: </h2>
+              <h2 className="itemRight">Score: {this.props.score}</h2>
             </ul>
           </nav>
         );
