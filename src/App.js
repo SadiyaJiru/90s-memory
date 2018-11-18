@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import CharacterCard from "./components/CharactersCard";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import ScoreBoard from "./components/ScoreBoard"
+import ScoreBoard from "./components/ScoreBoard/score"
 import characters from "./characters.json";
 //mock data from characters.json
 
@@ -18,7 +18,6 @@ state = {
   score: 0
   
 };
-
 //a function that changes the characters state to "clicked" if clicked
 charactersClicked = event =>{
 const currentClick= event.target.alt;
