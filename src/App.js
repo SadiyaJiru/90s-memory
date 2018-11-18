@@ -1,8 +1,8 @@
 //Top level container component
 import React, { Component } from "react";
 import CharacterCard from "./components/CharactersCard";
-import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+// import Wrapper from "./components/Wrapper";
+// import Title from "./components/Title";
 import ScoreBoard from "./components/ScoreBoard/ScoreBoard"
 import characters from "./characters.json";
 
