@@ -5,11 +5,13 @@ import "./style.css";
 //generate our BootStrap Card
 
 //the span has an onlcick event, give it the the ID of the Character that has been clicked
+            // <img alt={props.image} src={props.image} />
+
 const CharactersCard = props => (
   
         <div className="card"  onClick={props.charactersClicked}>
           <div className="img-container">
-            <img alt={"90s cartoons"} src={props.image} />
+           <img alt={props.image} src={props.image} />
           </div>
         </div>
 )

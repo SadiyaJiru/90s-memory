@@ -1,4 +1,6 @@
 import React, { Component } from "react";
+import Title from "../Title";
+
 import "./score.css";
 
 // By extending the React.Component class, Counter inherits functionality from it
@@ -8,9 +10,9 @@ class ScoreBoard extends Component {
   render() {
         return (
           <nav className="navbar navbar-default navbar-fixed-top">
+          <Title>Test Your 90's Cartoon Memory</Title>
              <ul>
-              <h1 className="itemLeft">Test Your 90's Cartoon Memory</h1>
-              <h2 className="itemCenter">Highest Score: </h2>
+              <h2 className="itemCenter">Highest Score: {this.props.highestScore}</h2>
               <h2 className="itemRight">Score: {this.props.score}</h2>
             </ul>
           </nav>

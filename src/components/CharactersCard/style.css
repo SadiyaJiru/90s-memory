@@ -1,3 +1,6 @@
 body{
-    background: red;
+    background: url("/src/components/Wrapper/pinkie-background.jpg");
+}
+img{
+    width: 100%; 
 }
