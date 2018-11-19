@@ -7,15 +7,15 @@ import "./style.css";
 //the span has an onlcick event, give it the the ID of the Character that has been clicked
             // <img alt={props.image} src={props.image} />
 
-const CharactersCard = props => (
+ function CharactersCard (props){
+  return(
+    <div class="card myCard" onClick={props.charactersClicked}>
   
-        <div className="card"  onClick={props.charactersClicked}>
-          <div className="img-container">
-           <img alt={props.image} src={props.image} />
-          </div>
-        </div>
-)
-    
+    <img src={props.image} alt={props.image} />  </div>
+    )
+ }
+  
+   
 
 
 export default CharactersCard;

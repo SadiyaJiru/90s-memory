@@ -24,9 +24,10 @@ state = {
 charactersClicked = event =>{
 
 const currentClick= event.target.alt;
-const currentScore = this.state.score;
 
-alert("I was clicked")
+
+// alert("I was clicked")
+
 //if the current click is equal to the one before, store it in previouslyClicked
 const previouslyClicked = this.state.clicked.indexOf(currentClick) > -1;
 
@@ -43,7 +44,7 @@ if (previouslyClicked){
 
 })
 
-alert("You lost")
+alert("You lost, try again.")
 
 //if you click on a character that has not been clicked 
 }  else {
@@ -64,9 +65,9 @@ alert("You lost")
     //if you get them all right without double clicking 
   () =>{
     //if guess all 12 images correctly you win
-if(this.state.score === 12){
+if(this.state.score === 15){
 
-  alert(`you win`);
+  // alert(`you win`);
 
   //Reset the game
   this.setState({
@@ -84,8 +85,8 @@ if(this.state.score === 12){
   });
 }
 };
-//Each component needs to have a render
-//create a render methond that renders the top level componenet of Wrapper
+
+//render methond that renders the top level componenet of Wrapper
 //Wrapper will render a title, use .map to create an array of all the characters in the clicked state
 //for each Character we want to generate a CharacterCard and pass in the charactersClicked method from above
   render() {
@@ -101,6 +102,7 @@ if(this.state.score === 12){
   <CharacterCard
 charactersClicked = {this.charactersClicked}
 id={characters.id}
+name={characters.name}
 key={characters.id}
 // name={character.name}
 image={characters.image}

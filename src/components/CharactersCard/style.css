@@ -1,6 +1,11 @@
 body{
     background: url("/src/components/Wrapper/pinkie-background.jpg");
 }
-img{
-    width: 100%; 
+
+.myCard img {
+    height: 150px;
+    width: 150px;
+    border: solid white;
+    justify-content: space-around;
+
 }
