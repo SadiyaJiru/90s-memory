@@ -6,7 +6,7 @@ Clicky-Game is an application that renders different images by listening to clic
 ### 90s Memory
 [Click To Go To Deployed Site](https://sadiyajiru.github.io/90s-memory/)
 
-image
+![90s memory](https://user-images.githubusercontent.com/39322545/49319368-1e100800-f4c2-11e8-8fa1-cfbb44a6871c.PNG)
 
 
 
